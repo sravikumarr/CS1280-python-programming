@@ -1,6 +1,6 @@
-a = 10
-print(type(a))  # Output: <class 'int'>
-b = 10.0
-print(type(b))  # Output: <class 'float'>
-c = True
-print(type(c))
+def outer_function():
+    global a
+    a = 20
+    print("a =", a)
+outer_function()
+print("global value of a =", a)
