@@ -1,3 +1,4 @@
-print() # blank line
-print("Suppose two swallows \"carry\" it together.") # to print "
-print('African or "European" swallows?') # single and double quotes
+from greetings import say_hello, say_goodbye
+
+print(say_hello("Riyan"))
+print(say_goodbye("Riyan"))
